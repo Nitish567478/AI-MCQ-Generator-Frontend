@@ -1,4 +1,6 @@
-const BASE_URL = "http://127.0.0.1:8000";
+const BASE_URL = "https://ai-mcq-generator-c1wz.onrender.com"
+
+// "http://127.0.0.1:8000";
 
 export async function generateQuiz(url) {
   const res = await fetch(`${BASE_URL}/api/quiz`, {

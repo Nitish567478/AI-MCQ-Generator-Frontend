@@ -19,12 +19,21 @@
   background: #f7c5c5;
 }
 
-.submit-btn {
+.submit-button {
   margin-top: 20px;
   padding: 10px 18px;
   font-size: 16px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
 }
-.submit-btn:disabled {
-  background: #ccc;
+
+.submit-button:hover {
+  background: #45a049;
+}
+.submit-button:disabled {
+  background: #b2c2b1;
   cursor: not-allowed;
 }

@@ -22,13 +22,9 @@ export default function QuizModal({ quizId, onClose }) {
         <button className="close-btn" onClick={onClose}>✕</button>
 
         <h2>{quiz.title}</h2>
-
-        {/* ✅ SUMMARY (STRING) */}
         <p className="quiz-summary">
           {quiz.summary || "No summary available."}
         </p>
-
-        {/* ✅ BULLET POINTS (ARRAY) */}
         {quiz.points?.length > 0 && (
           <>
             <h4>Key Points</h4>
@@ -41,8 +37,6 @@ export default function QuizModal({ quizId, onClose }) {
         )}
 
         <hr />
-
-        {/* ✅ ALL MCQs */}
         <h3>MCQ Questions</h3>
 
         {quiz.questions.map((q, i) => (

@@ -51,7 +51,7 @@ export default function TakeQuiz({ quiz }) {
       ))}
 
       {!submitted && (
-        <button onClick={submitQuiz}>Submit Quiz</button>
+        <button className="submit-button" onClick={submitQuiz}>Submit Quiz</button>
       )}
 
       {submitted && (

@@ -1,4 +1,3 @@
-/* ========== QUIZ MODAL ========== */
 .quiz-modal-content {
   max-width: 950px;
   max-height: 90vh;
@@ -234,7 +233,6 @@
   box-shadow: 0 8px 24px rgba(16, 185, 129, 0.3);
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .quiz-modal-content {
     margin: 1rem;
